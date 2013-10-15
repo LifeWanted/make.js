@@ -1,0 +1,4 @@
+{
+    "g++" : "g++ <options> <infilepath> -o <infiledir>/<basename>",
+    "gcc" : "gcc <options> <infilepath> -o <infiledir>/<basename>"
+}

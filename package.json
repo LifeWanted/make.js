@@ -4,7 +4,7 @@
   "description": "Build scripts in Node.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -t 10000 --recursive tests/unit"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   
   "dependencies" : {
-    "async" : "0.x"
+    "async" : "0.x",
+    "commander" : "1.x"
   }
 }
